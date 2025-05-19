@@ -32,7 +32,7 @@ foreach ($products as $p) {
 <article>
   <figure>
     <a href="product.php?id={$p['id']}">
-      <img src="{$p['image_url']}" alt="{$p['name']}">
+      <img class="shop-img" src="{$p['image_url']}" alt="{$p['name']}">
     </a>
   </figure>
   <h3>
